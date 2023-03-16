@@ -27,10 +27,10 @@ public class Autor {
 
 	public void setPrezime(String prezime) {
 		
-		if(ime == null)
+		if(prezime == null)
 			throw new NullPointerException("Prezime ne sme biti null");
 		
-		if(ime.isEmpty())
+		if(prezime.isEmpty())
 			throw new IllegalArgumentException("Prezime ne sme biti prazan");
 		
 		this.prezime = prezime;
